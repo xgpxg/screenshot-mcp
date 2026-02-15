@@ -1,6 +1,6 @@
 {
   "name": "oneapi-screenshot-mcp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "description": "OneAPI 网页截图 MCP 服务",
   "main": "dist/index.js",
