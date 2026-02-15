@@ -1,0 +1,36 @@
+{
+  "name": "oneapi-screenshot-mcp",
+  "version": "0.1.2",
+  "type": "module",
+  "description": "OneAPI 网页截图 MCP 服务",
+  "main": "dist/index.js",
+  "bin": {
+    "oneapi-screenshot-mcp": "bin/oneapi-screenshot-mcp.js"
+  },
+  "files": [
+    "dist/",
+    "bin/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "screenshot",
+    "webpage",
+    "api"
+  ],
+  "author": "CoderBox",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
